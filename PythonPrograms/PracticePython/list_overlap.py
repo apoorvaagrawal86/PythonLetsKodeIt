@@ -11,8 +11,8 @@ print(c)
 
 print('*' * 20)
 
-d = range(1, random.randint(1,30))
-e = range(1, random.randint(10, 40))
+d = list(range(1, random.randint(1, 30)))
+e = list(range(1, random.randint(10, 40)))
 f = []
 
 print(d)

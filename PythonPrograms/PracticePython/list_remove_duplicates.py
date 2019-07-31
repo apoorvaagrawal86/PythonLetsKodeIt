@@ -16,5 +16,10 @@ for i in list_a:
         list_b.append(i)
         print('list_b is ' + str(list_b))
 print('list_b is ' + str(list_b))
+list_e = []
+for j in list_c + list_b:
+    if j not in list_c or j not in list_b:
+        list_e.append(j)
+print('list_e is ' + str(list_e))
 
 
