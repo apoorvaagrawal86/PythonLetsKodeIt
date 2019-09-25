@@ -22,6 +22,6 @@ while guess != b and guess != 'exit':
         print('Too high')
 
     else:
-        print('Exactly right!!! The correct number is ' + str(b) + 'and the number of tries is ' + count)
+        print('Exactly right!!! The correct number is ' + str(b) + 'and the number of tries is ' + str(count))
 
 
